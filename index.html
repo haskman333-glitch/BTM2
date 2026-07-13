@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dyson’s AirPulse i.d. Cleans Teeth With Air—and Costs $778 | BTM</title>
+
+  <style>
+    :root{
+      --bg:#0a0a0a;
+      --panel:#f5f4ef;
+      --panel-2:#eceae4;
+      --text:#171717;
+      --muted:#666760;
+      --rule:#d6d3cc;
+      --accent:#4f2a73;
+      --accent-2:#c89a3b;
+      --white:#ffffff;
+      --max:1280px;
+      --article:760px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family:Georgia,"Times New Roman",serif;
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+    }
+
+    img{
+      display:block;
+      width:100%;
+      max-width:100%;
+    }
+
+    a{
+      color:inherit;
+      text-decoration:none;
+    }
+
+    .site-header{
+      position:sticky;
+      top:0;
+      z-index:100;
+      background:rgba(7,7,7,.94);
+      border-bottom:1px solid rgba(255,255,255,.09);
+      backdrop-filter:blur(12px);
+      -webkit-backdrop-filter:blur(12px);
+    }
+
+    .header-inner{
+      width:min(var(--max),calc(100% - 36px));
+      min-height:76px;
+      margin:0 auto;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+    }
+
+    .masthead{
+      display:inline-block;
+      color:var(--white);
+      line-height:1;
+    }
+
+    .masthead-logo{
+      font-family:Georgia,"Times New Roman",serif;
+      font-size:34px;
+      font-weight:400;
+      letter-spacing:.28em;
+      color:#fff;
+    }
+
+    .masthead-sub{
+      margin-top:8px;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:8px;
+      font-weight:700;
+      letter-spacing:.22em;
+      text-transform:uppercase;
+      color:rgba(255,255,255,.76);
+    }
+
+    .page{
+      width:min(var(--max),calc(100% - 32px));
+      margin:24px auto 36px;
+      background:var(--panel);
+      box-shadow:0 24px 70px rgba(0,0,0,.28);
+      overflow:hidden;
+    }
+
+    .hero{
+      padding:44px 44px 30px;
+      border-bottom:1px solid var(--rule);
+      display:grid;
+      grid-template-columns:minmax(0,.92fr) minmax(420px,1.08fr);
+      gap:48px;
+      align-items:start;
+    }
+
+    .kicker{
+      margin-bottom:18px;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:10px;
+      font-weight:800;
+      letter-spacing:.16em;
+      text-transform:uppercase;
+      color:var(--muted);
+    }
+
+    .kicker span{
+      color:var(--accent);
+    }
+
+    h1{
+      margin:0 0 24px;
+      font-size:clamp(46px,5.5vw,82px);
+      line-height:.98;
+      font-weight:400;
+      letter-spacing:.03em;
+    }
+
+    .dek{
+      margin:0 0 28px;
+      color:#4e4e49;
+      font-size:clamp(18px,1.7vw,24px);
+      line-height:1.44;
+    }
+
+    .byline{
+      display:flex;
+      flex-wrap:wrap;
+      gap:9px 14px;
+      color:#5e5e59;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:10px;
+      font-weight:700;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+    }
+
+    .byline strong{
+      color:#121212;
+    }
+
+    .hero-image{
+      background:#ecebe7;
+      border:1px solid #dfddd6;
+      padding:18px;
+    }
+
+    .hero-image img{
+      height:580px;
+      object-fit:contain;
+      object-position:center;
+    }
+
+    .hero-credit{
+      margin-top:10px;
+      text-align:right;
+      color:#72726c;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:8px;
+      letter-spacing:.05em;
+      text-transform:uppercase;
+    }
+
+    .article-shell{
+      width:min(980px,calc(100% - 40px));
+      margin:0 auto;
+      padding:34px 0 78px;
+      display:grid;
+      grid-template-columns:54px minmax(0,var(--article));
+      gap:32px;
+      justify-content:center;
+      align-items:start;
+    }
+
+    .share{
+      position:sticky;
+      top:112px;
+      display:grid;
+      gap:10px;
+    }
+
+    .share a{
+      width:36px;
+      height:36px;
+      display:grid;
+      place-items:center;
+      border:1px solid #cfcac2;
+      border-radius:50%;
+      background:#faf9f5;
+      color:#4a4a46;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:10px;
+      font-weight:800;
+      letter-spacing:.04em;
+    }
+
+    article{
+      font-size:19px;
+      line-height:1.78;
+      color:#232320;
+    }
+
+    article p{
+      margin:0 0 26px;
+    }
+
+    .lead{
+      font-size:21px;
+      line-height:1.7;
+    }
+
+    .lead::first-letter{
+      float:left;
+      margin:9px 10px 0 0;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:82px;
+      font-weight:900;
+      line-height:.72;
+    }
+
+    h2{
+      margin:62px 0 18px;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:31px;
+      line-height:1.05;
+      font-weight:800;
+      letter-spacing:-.02em;
+    }
+
+    h3{
+      margin:38px 0 12px;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:21px;
+      line-height:1.1;
+      font-weight:800;
+      letter-spacing:-.01em;
+    }
+
+    strong{
+      color:#111;
+    }
+
+    .pullquote{
+      margin:46px 0;
+      padding:24px 0;
+      border-top:3px solid #121212;
+      border-bottom:1px solid #121212;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:31px;
+      line-height:1.08;
+      font-weight:800;
+      letter-spacing:-.03em;
+    }
+
+    figure{
+      margin:38px 0;
+    }
+
+    figure img{
+      background:#ecebe7;
+      border:1px solid #dfddd6;
+      max-height:720px;
+      object-fit:contain;
+    }
+
+    figcaption{
+      margin-top:10px;
+      color:#6a6a66;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:8px;
+      line-height:1.6;
+      letter-spacing:.05em;
+      text-transform:uppercase;
+    }
+
+    .gallery-2{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:18px;
+      margin:36px 0;
+    }
+
+    .gallery-2 figure{
+      margin:0;
+    }
+
+    .specs{
+      margin:38px 0;
+      border-top:2px solid #111;
+    }
+
+    .spec-row{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:20px;
+      padding:13px 0;
+      border-bottom:1px solid #cecac2;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:11px;
+      line-height:1.45;
+    }
+
+    .spec-row span{
+      color:#686861;
+    }
+
+    .spec-row strong{
+      text-align:right;
+      font-weight:800;
+    }
+
+    .price-list{
+      margin:28px 0 32px;
+      border-top:2px solid #111;
+    }
+
+    .price-line{
+      display:grid;
+      grid-template-columns:1fr auto;
+      gap:24px;
+      padding:16px 0;
+      border-bottom:1px solid #cecac2;
+      font-family:Arial,Helvetica,sans-serif;
+    }
+
+    .price-line h4{
+      margin:0 0 5px;
+      font-size:14px;
+      line-height:1.2;
+    }
+
+    .price-line p{
+      margin:0;
+      color:#696963;
+      font-size:10px;
+      line-height:1.5;
+    }
+
+    .price-line strong{
+      font-size:16px;
+      white-space:nowrap;
+      align-self:start;
+    }
+
+    .author-block{
+      margin-top:56px;
+      padding-top:28px;
+      border-top:1px solid #111;
+      display:grid;
+      grid-template-columns:82px 1fr;
+      gap:20px;
+      align-items:start;
+    }
+
+    .author-avatar{
+      width:82px;
+      height:82px;
+      display:grid;
+      place-items:center;
+      border-radius:50%;
+      background:#111;
+      color:#fff;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:25px;
+      font-weight:900;
+    }
+
+    .author-copy h3{
+      margin:0 0 6px;
+      font-size:18px;
+    }
+
+    .author-role{
+      margin-bottom:8px;
+      color:#6d6d67;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:8px;
+      font-weight:800;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+    }
+
+    .author-copy p{
+      margin:0;
+      font-size:14px;
+      line-height:1.6;
+      color:#4f4f4a;
+    }
+
+    .topics{
+      margin-top:30px;
+      padding-top:18px;
+      border-top:1px solid var(--rule);
+      display:flex;
+      flex-wrap:wrap;
+      gap:9px;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:8px;
+      font-weight:900;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+    }
+
+    .topics span{
+      padding:7px 10px;
+      background:#eceae4;
+    }
+
+    footer{
+      background:#080808;
+      color:#fff;
+    }
+
+    .footer-inner{
+      width:min(var(--max),calc(100% - 36px));
+      margin:0 auto;
+      padding:36px 0 28px;
+      text-align:center;
+    }
+
+    .footer-logo{
+      font-family:Georgia,"Times New Roman",serif;
+      font-size:28px;
+      font-weight:400;
+      letter-spacing:.28em;
+      color:#fff;
+    }
+
+    .footer-sub{
+      margin-top:8px;
+      color:rgba(255,255,255,.68);
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:8px;
+      font-weight:700;
+      letter-spacing:.2em;
+      text-transform:uppercase;
+    }
+
+    .footer-copy{
+      margin-top:18px;
+      color:#999;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:10px;
+    }
+
+    @media (max-width:1050px){
+      .hero{
+        grid-template-columns:1fr;
+        gap:28px;
+      }
+
+      .hero-image img{
+        height:500px;
+      }
+    }
+
+    @media (max-width:820px){
+      .page{
+        width:min(100%,calc(100% - 16px));
+        margin:8px auto 18px;
+      }
+
+      .header-inner{
+        min-height:68px;
+      }
+
+      .masthead-logo{
+        font-size:28px;
+      }
+
+      .hero{
+        padding:28px 20px 22px;
+      }
+
+      .article-shell{
+        width:calc(100% - 24px);
+        grid-template-columns:1fr;
+        gap:18px;
+        padding:26px 0 56px;
+      }
+
+      .share{
+        position:relative;
+        top:auto;
+        display:flex;
+        flex-wrap:wrap;
+      }
+
+      .gallery-2{
+        grid-template-columns:1fr;
+      }
+
+      h1{
+        font-size:44px;
+      }
+
+      article{
+        font-size:17px;
+      }
+
+      .lead{
+        font-size:19px;
+      }
+
+      .author-block{
+        grid-template-columns:66px 1fr;
+      }
+
+      .author-avatar{
+        width:66px;
+        height:66px;
+        font-size:22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!--
+    Put your image files in the same folder as this HTML file.
+    Replace the filenames below with the exact IMG_ filenames you have.
+
+    HERO_DUO
+    REAR_DUO
+    LIGHT_FRONT
+    DARK_FRONT
+    LIGHT_HEAD
+    DARK_HEAD
+    LIGHT_ANGLE
+    DARK_ANGLE
+    CONTROLS
+    REAR_ANGLE
+  -->
+
+  <script>
+    const IMAGES = {
+      HERO_DUO: "IMG_0001.JPG",
+      REAR_DUO: "IMG_0002.JPG",
+      LIGHT_FRONT: "IMG_0003.JPG",
+      DARK_FRONT: "IMG_0004.JPG",
+      LIGHT_HEAD: "IMG_0005.JPG",
+      DARK_HEAD: "IMG_0006.JPG",
+      LIGHT_ANGLE: "IMG_0007.JPG",
+      DARK_ANGLE: "IMG_0008.JPG",
+      CONTROLS: "IMG_0009.JPG",
+      REAR_ANGLE: "IMG_0010.JPG"
+    };
+  </script>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="masthead" href="#">
+        <div class="masthead-logo">BTM</div>
+        <div class="masthead-sub">British Technology Magazine</div>
+      </a>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div>
+        <div class="kicker"><span>Gear</span> · Product Design</div>
+
+        <h1>Dyson’s AirPulse i.d. Cleans Teeth With Air—and Costs $778</h1>
+
+        <p class="dek">
+          Dyson’s first electric toothbrush eliminates bristles in favour of a
+          miniature high-speed compressor, shaped air channels, six months of
+          battery life and live cleaning guidance through MyDyson.
+        </p>
+
+        <div class="byline">
+          <strong>Julian Mercer</strong>
+          <span>1 day ago</span>
+          <span>July 11, 2026</span>
+          <span>23:07</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="hero-image">
+          <img data-img="HERO_DUO" alt="Dyson AirPulse i.d. in porcelain and graphite finishes" />
+        </div>
+        <div class="hero-credit">Product imagery: AirPulse i.d.</div>
+      </div>
+    </section>
+
+    <section class="article-shell">
+      <aside class="share" aria-label="Share article">
+        <a href="#">f</a>
+        <a href="#">X</a>
+        <a href="#">in</a>
+        <a href="#">↗</a>
+      </aside>
+
+      <article>
+        <p class="lead">
+          The most important part of the AirPulse i.d. is the part that is
+          missing. There is no oscillating brush head, no bundle of nylon
+          filaments and no replaceable tip. Dyson has instead built the machine
+          around a pair of carefully shaped air outlets designed to clean the
+          surface of each tooth without making direct contact.
+        </p>
+
+        <p>
+          The result is recognisably a toothbrush, but one organised around the
+          internal logic of an airflow appliance. Air enters through the rear
+          grille, passes through a compact motor-driven compression system,
+          travels along the tapered neck and exits through two narrow oval
+          channels at the top.
+        </p>
+
+        <p>
+          That architecture changes almost every familiar element of an electric
+          toothbrush: how it cleans, how it warns the user, how its battery is
+          charged, how modes are selected and even which parts need replacing.
+        </p>
+
+        <div class="pullquote">
+          AirPulse i.d. does not move a brush against the tooth. It shapes,
+          compresses and directs the air itself.
+        </div>
+
+        <h2>Cleaning With Compressed Air</h2>
+
+        <p>
+          The concept begins with an unusually simple claim: a toothbrush does
+          not necessarily need bristles if its airflow can be made concentrated,
+          consistent and controllable enough to disturb plaque and move debris
+          away from the enamel.
+        </p>
+
+        <p>
+          Inside the head, a small sequence of compression surfaces reduces the
+          available air path before dividing it between the two outlets. The
+          geometry accelerates the air and gives each stream a narrow,
+          controlled shape rather than allowing it to leave the head as a broad,
+          weak gust.
+        </p>
+
+        <p>
+          The two elongated outlets are intended to overlap slightly. One stream
+          focuses on the visible surface of the tooth while the second reaches
+          closer to the gumline and the spaces around neighbouring teeth.
+        </p>
+
+        <p>
+          Unlike a conventional toothbrush, the head is not meant to be pressed
+          against the enamel. Dyson specifies a small working gap between the
+          outlet and the tooth. At that distance, the air has enough space to
+          form correctly before reaching the surface.
+        </p>
+
+        <p>
+          Pressing the head directly against the tooth obstructs the outlets and
+          reduces cleaning performance. That is why AirPulse i.d. treats
+          excessive contact as an error rather than simply as excessive brushing
+          pressure.
+        </p>
+
+        <div class="gallery-2">
+          <figure>
+            <img data-img="LIGHT_HEAD" alt="Close-up of the porcelain AirPulse i.d. head" />
+            <figcaption>
+              The porcelain version shows the twin oval air outlets in full,
+              with the two channels designed to form separate but overlapping
+              cleaning streams.
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img data-img="DARK_HEAD" alt="Close-up of the graphite AirPulse i.d. head" />
+            <figcaption>
+              The graphite finish makes the head’s airflow geometry especially
+              clear: two narrow exits, carefully shaped, aligned and directed.
+            </figcaption>
+          </figure>
+        </div>
+
+        <h2>A Body Shaped Around One Continuous Air Path</h2>
+
+        <p>
+          The product is visually simple because the upper nozzle, the internal
+          channel and the handle have been designed as one connected structure.
+        </p>
+
+        <p>
+          AirPulse i.d. stands <strong>230 millimetres tall</strong>. Based on
+          the proportions of the full product render, the widest copper shoulder
+          is approximately <strong>27 millimetres across</strong>, while the
+          main purple grip is approximately <strong>23 millimetres in diameter</strong>.
+        </p>
+
+        <p>
+          The lower handle contains the battery, motor, electronics and display.
+          Above it, the copper shoulder creates additional internal volume for
+          the compression geometry before the structure narrows into the long
+          white or graphite neck.
+        </p>
+
+        <p>
+          The cleaning tip is made from solid moulded plastic and is integrated
+          permanently into the upper body. Because it contains no bristles,
+          there is no brush head to wear down, detach or replace every few
+          months.
+        </p>
+
+        <p>
+          The only major removable component is the battery module at the bottom
+          of the handle. It separates from the main body when charging is
+          eventually required.
+        </p>
+
+        <div class="gallery-2">
+          <figure>
+            <img data-img="LIGHT_FRONT" alt="Front view of the porcelain AirPulse i.d." />
+            <figcaption>
+              The porcelain model shows the pure front profile: long neck,
+              expanded shoulder, circular display and a single physical power
+              button below it.
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img data-img="DARK_FRONT" alt="Front view of the graphite AirPulse i.d." />
+            <figcaption>
+              The graphite version confirms the same minimal architecture in a
+              darker finish, with the display remaining fully black until the
+              handle is picked up.
+            </figcaption>
+          </figure>
+        </div>
+
+        <figure>
+          <img data-img="REAR_DUO" alt="Rear view of the porcelain and graphite AirPulse i.d." />
+          <figcaption>
+            The dotted rear intake supplies the fan and doubles as the docking
+            area for the optional Aqua Floss reservoir.
+          </figcaption>
+        </figure>
+
+        <h2>Very Low Torque, Very High Speed</h2>
+
+        <p>
+          A conventional electric toothbrush must repeatedly accelerate and
+          reverse a brush head while that head is being pressed against the
+          teeth. That requires usable torque and creates a constantly changing
+          mechanical load.
+        </p>
+
+        <p>
+          AirPulse i.d. uses a different operating profile. Its compact digital
+          motor drives a small fan blade continuously in one direction. The
+          required torque is comparatively low, allowing the motor to be
+          optimised around a narrow and highly efficient high-rpm operating
+          range.
+        </p>
+
+        <p>
+          The fan creates the initial airflow. The shoulder and neck then
+          compress and guide it before the twin nozzle geometry produces the
+          final cleaning streams.
+        </p>
+
+        <div class="gallery-2">
+          <figure>
+            <img data-img="LIGHT_ANGLE" alt="Angled view of the porcelain AirPulse i.d." />
+            <figcaption>
+              From an angle, the porcelain version highlights how the head sits
+              just off the tooth rather than against it, reinforcing the product’s
+              airflow-first logic.
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img data-img="DARK_ANGLE" alt="Angled view of the graphite AirPulse i.d." />
+            <figcaption>
+              The graphite model reveals the same taper and internal volume
+              transition from handle to neck, where the air path is shaped and
+              accelerated.
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="specs">
+          <div class="spec-row">
+            <span>Cleaning system</span>
+            <strong>Twin compressed-air outlets</strong>
+          </div>
+          <div class="spec-row">
+            <span>Total height</span>
+            <strong>230 mm</strong>
+          </div>
+          <div class="spec-row">
+            <span>Maximum diameter</span>
+            <strong>Approximately 27 mm</strong>
+          </div>
+          <div class="spec-row">
+            <span>Grip diameter</span>
+            <strong>Approximately 23 mm</strong>
+          </div>
+          <div class="spec-row">
+            <span>Replacement heads</span>
+            <strong>None</strong>
+          </div>
+        </div>
+
+        <h2>Six Months Between Charges</h2>
+
+        <p>
+          The efficiency of the low-load fan system gives AirPulse i.d. a
+          claimed active runtime of 30 hours. That figure refers to the time
+          spent actually operating, rather than standby time.
+        </p>
+
+        <p>
+          At three three-minute sessions per day, daily motor use totals nine
+          minutes. Thirty hours therefore provides approximately 200 days of
+          operation—slightly more than six months.
+        </p>
+
+        <p>
+          Dyson has omitted an induction stand entirely. When the battery is
+          finally depleted, the lower module detaches from the handle and is
+          placed into a dedicated external charger.
+        </p>
+
+        <p>
+          A full charge takes 10 hours. The slow charging cycle is intended to
+          reduce heat and preserve the long-term capacity of a battery that may
+          only need to be charged twice per year.
+        </p>
+
+        <p>
+          The dedicated charger is not included with the toothbrush. It is sold
+          separately for $215.
+        </p>
+
+        <figure>
+          <img data-img="REAR_ANGLE" alt="Rear angled view showing the AirPulse i.d. battery section" />
+          <figcaption>
+            The lower gold module detaches for charging. The body itself never
+            needs to sit on an induction base.
+          </figcaption>
+        </figure>
+
+        <h2>One Button, One Circular Display</h2>
+
+        <p>
+          The physical power button handles starting and stopping. Everything
+          else is controlled through the circular touch display positioned
+          directly above it.
+        </p>
+
+        <p>
+          Motion sensors detect movement and wake the otherwise dark circular
+          display automatically. When the handle is placed back down, the
+          display returns to black.
+        </p>
+
+        <p>
+          Horizontal gestures move between Clean, Soft Clean and Aqua Floss
+          before the motor is started. Pressing the single physical button
+          starts the motor and locks the selected programme so an accidental
+          touch cannot change the mode during cleaning.
+        </p>
+
+        <p>
+          Every programme lasts three minutes. A short vibration is produced
+          every 45 seconds, creating four equal cleaning sections before the
+          motor stops automatically.
+        </p>
+
+        <figure>
+          <img data-img="CONTROLS" alt="Close-up of the AirPulse i.d. screen and power button" />
+          <figcaption>
+            The circular touchscreen wakes when the handle is lifted. The
+            separate button starts and stops the selected programme.
+          </figcaption>
+        </figure>
+
+        <h2>Pressure and Battery Warnings</h2>
+
+        <h3>Move the nozzle away</h3>
+
+        <p>
+          When the head is pressed directly against the tooth, pressure and
+          obstruction sensors recognise that the airflow path has been
+          compromised. The handle produces a warning vibration pattern and the
+          display flashes a strong red alert symbol.
+        </p>
+
+        <h3>Battery depleted</h3>
+
+        <p>
+          A yellow empty-battery symbol appears when the remaining charge can no
+          longer support a full cycle. Pressing the start button produces a
+          short vibration, while the yellow symbol flashes at increased
+          brightness for three seconds. The motor remains off.
+        </p>
+
+        <h2>Three Cleaning Programmes</h2>
+
+        <h3>Clean</h3>
+
+        <p>
+          The standard daily programme uses the full dry-air output. A short
+          vibration is produced every 45 seconds, dividing the three-minute
+          cleaning cycle into four equal sections.
+        </p>
+
+        <h3>Soft Clean</h3>
+
+        <p>
+          Soft Clean reduces the airflow pressure to limit irritation around
+          sensitive gums. The programme keeps the same three-minute structure
+          and the same four 45-second guidance intervals.
+        </p>
+
+        <h3>Aqua Floss</h3>
+
+        <p>
+          Aqua Floss uses the optional rear-mounted water reservoir. The
+          attachment covers the normal intake grille and engages a dedicated
+          sealed wet-mode connection, converting the twin outlet into a pulsed
+          water-flossing system.
+        </p>
+
+        <h2>MyDyson Shows What You Missed</h2>
+
+        <p>
+          AirPulse i.d. connects to the MyDyson app to display the actual
+          remaining charge of the removable battery rather than reducing it to a
+          basic three-level icon.
+        </p>
+
+        <p>
+          During cleaning, the app presents a live map of the mouth. Areas move
+          from red to yellow and finally to green as the system records
+          sufficient coverage.
+        </p>
+
+        <p>
+          The map is designed to show which teeth remain dirty, which have been
+          cleaned only partially and which have received the complete cleaning
+          cycle.
+        </p>
+
+        <p>
+          When the Aqua Floss attachment is connected, an additional menu
+          appears inside the same AirPulse product page. It displays the
+          remaining water level and tracks flossing coverage separately from
+          dry-air cleaning.
+        </p>
+
+        <h2>Then There Is the Price</h2>
+
+        <p>
+          At $778 for the handle alone, AirPulse i.d. sits at the very top of
+          the consumer electric-toothbrush market. The cost does not include the
+          dedicated battery charger, which adds another $215.
+        </p>
+
+        <p>
+          The optional Aqua Floss attachment costs $293. A complete system
+          therefore reaches $1,286.
+        </p>
+
+        <div class="price-list">
+          <div class="price-line">
+            <div>
+              <h4>AirPulse i.d.</h4>
+              <p>Bristleless handle with removable battery module</p>
+            </div>
+            <strong>$778</strong>
+          </div>
+
+          <div class="price-line">
+            <div>
+              <h4>AirPulse battery charger</h4>
+              <p>Dedicated 10-hour charger, sold separately</p>
+            </div>
+            <strong>$215</strong>
+          </div>
+
+          <div class="price-line">
+            <div>
+              <h4>Aqua Floss attachment</h4>
+              <p>Rear-mounted water reservoir and wet-mode interface</p>
+            </div>
+            <strong>$293</strong>
+          </div>
+        </div>
+
+        <p>
+          The complete proposition follows a familiar Dyson pattern: take a
+          simple domestic object, identify the airflow problem hidden inside it,
+          replace the conventional mechanism with an unusually elaborate motor
+          and channel system, then build a premium ecosystem around the result.
+        </p>
+
+        <section class="author-block">
+          <div class="author-avatar">JM</div>
+
+          <div class="author-copy">
+            <h3>Julian Mercer</h3>
+            <div class="author-role">Senior Editor, Gear and Industrial Design</div>
+            <p>
+              Julian Mercer covers consumer technology, product engineering and
+              industrial design for BTM, with a particular focus on connected
+              personal-care devices and emerging hardware.
+            </p>
+          </div>
+        </section>
+
+        <div class="topics">
+          <span>Dyson</span>
+          <span>Gear</span>
+          <span>Industrial Design</span>
+          <span>Personal Care</span>
+          <span>MyDyson</span>
+          <span>Airflow</span>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">BTM</div>
+      <div class="footer-sub">British Technology Magazine</div>
+      <div class="footer-copy">© 2026 British Technology Magazine. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll("[data-img]").forEach((img) => {
+      const key = img.getAttribute("data-img");
+      if (IMAGES[key]) img.src = IMAGES[key];
+    });
+  </script>
+</body>
+</html>
